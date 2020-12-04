@@ -1,0 +1,116 @@
+body {
+  background-color: #000133;
+  width: 100%;
+  font-family: Zilla Slab;
+}
+
+.headerDiv {
+  font-size: 28px;
+  font-weight: 700;
+  color: #55f6bb;
+  margin-top: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headimg {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #55f6bb;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.navOptions {
+  color: #efefef;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.navOptions > span {
+  margin-right: 20px;
+}
+.navOptions > button {
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 6px;
+  border: 2px solid #55f7bb;
+  background-color: #000133;
+  color: #55f6bb;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.navOptions > span:hover {
+  color: #55f6bb;
+  border-bottom: 2px solid #55f6bb;
+  cursor: pointer;
+}
+.navOptions > button:hover {
+  color: #55f6bb;
+  border-bottom: 2px solid #55f6bb;
+  cursor: pointer;
+}
+
+.container {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.intro {
+  font-size: 30px;
+  font-weight: 700;
+  color: #efefef;
+}
+
+.topIllustration {
+  height: 250px;
+  width: 500px;
+  justify-self: end;
+}
+
+.topIntroImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.secondIll {
+  height: 300px;
+  width: 450px;
+}
+
+.hrLine {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.infoText {
+  margin-top: 40px;
+  color: #efefef;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footerStyle {
+  height: 100px;
+  width: 100%;
+  color: #efefef;
+  display: flex;
+  justify-content: center;
+}
